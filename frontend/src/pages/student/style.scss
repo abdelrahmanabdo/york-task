@@ -1,0 +1,31 @@
+.profile-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  margin: auto;
+  padding: 30px;
+  .assign-button {
+    width: fit-content;
+    padding: 15px 25px;
+    background-color: #FFF;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: 0;
+    background-color: #fbe55c;
+    color: #4c4c4c;
+    font-weight: bold;
+    outline: none;
+    margin-top: 30px;
+    &:hover {
+      transform: scale(1.04);
+    }
+  }
+  .student-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    margin: 20px 0;
+  }
+}

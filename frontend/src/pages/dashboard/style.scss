@@ -1,0 +1,20 @@
+
+.dashboard-wrapper{
+  display: flex;
+  flex-direction: column; 
+  .classroom-row {
+    width: 40%;
+    padding: 15px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    text-decoration: none;
+    color: #4c4c4c;
+    font-weight: 600;
+    &:hover {
+      transform: scale(.99);
+      transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+  }
+}
